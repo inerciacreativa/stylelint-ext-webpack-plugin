@@ -1,4 +1,4 @@
-# stylelint-webpack-plugin
+# stylelint-ext-webpack-plugin
 
 A Stylelint plugin for webpack
 
@@ -14,16 +14,16 @@ this module have their uses. `stylelint-loader` lints the files you `require`
 `@imports` in files are not followed, meaning only the main file for each
 `require/entry` is linted.
 
-`stylelint-webpack-plugin` allows defining a
+`stylelint-ext-webpack-plugin` allows defining a
 [glob pattern](https://en.wikipedia.org/wiki/Glob_(programming)) matching the
 configuration and use of `stylelint`.
 
 ## Getting Started
 
-To begin, you'll need to install `stylelint-webpack-plugin`:
+To begin, you'll need to install `stylelint-ext-webpack-plugin`:
 
 ```console
-$ npm install stylelint-webpack-plugin --save-dev
+$ npm install stylelint-ext-webpack-plugin --save-dev
 ```
 
 Then add the plugin to your `webpack` config. For example:
@@ -35,7 +35,7 @@ import file from 'file.ext';
 
 ```js
 // webpack.config.js
-const StyleLintPlugin = require('stylelint-webpack-plugin');
+const StyleLintPlugin = require('stylelint-ext-webpack-plugin');
 
 module.exports = {
   // ...
@@ -129,7 +129,7 @@ can use the `quiet` option to avoid error output to the console.
 
 ## Acknowledgement
 
-This project is a fork of [stylelint-webpack-plugin](https://github.com/webpack-contrib/stylelint-webpack-plugin).
+This project is a fork of [stylelint-webpack-plugin](https://github.com/webpack-contrib/stylelint-webpack-plugin) that allows the use of the latest versions of stylelint.
 
 ## License
 
