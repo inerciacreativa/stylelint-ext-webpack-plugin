@@ -1,19 +1,19 @@
 {
-  "name": "stylelint-webpack-plugin",
+  "name": "stylelint-ext-webpack-plugin",
   "version": "0.10.7",
   "description": "A stylelint plugin for webpack",
-  "license": "MIT",
   "keywords": [
     "stylelint",
     "webpack",
     "plugin"
   ],
-  "homepage": "https://github.com/inerciacreativa/stylelint-webpack-plugin#readme",
-  "bugs": "https://github.com/inerciacreativa/stylelint-webpack-plugin/issues",
+  "license": "MIT",
+  "homepage": "https://github.com/inerciacreativa/stylelint-ext-webpack-plugin",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/inerciacreativa/stylelint-webpack-plugin.git"
+    "url": "https://github.com/inerciacreativa/stylelint-ext-webpack-plugin.git"
   },
+  "bugs": "https://github.com/inerciacreativa/stylelint-ext-webpack-plugin/issues",
   "author": {
     "name": "Jose Cuesta",
     "email": "jose.cuesta@inerciacreativa.com",
